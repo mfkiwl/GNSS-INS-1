@@ -1,0 +1,49 @@
+﻿빌드 시작: 2021-10-15 오후 4:55:07
+     1>2 노드의 "D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\RTNetSolution.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt RTNetSolutionDlg.cpp SRC\NAV\ins.cpp
+         ins.cpp
+         RTNetSolutionDlg.cpp
+     1>c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+         c:\program files (x86)\microsoft visual studio 14.0\vc\atlmfc\include\afx.h(33): note: 'MBCS_Support_Deprecated_In_MFC' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Debug\RTNetSolution.exe" /INCREMENTAL /NOLOGO Nafxcwd.lib Libcmtd.lib /NODEFAULTLIB:"Nafxcwd.lib Libcmtd.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Debug\RTNetSolution.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Debug\RTNetSolution.lib" /MACHINE:X86 /SAFESEH Debug\RTNetSolution.res
+         Debug\ins.obj
+         Debug\bandmat.obj
+         Debug\cholesky.obj
+         Debug\evalue.obj
+         Debug\fft.obj
+         Debug\hholder.obj
+         Debug\jacobi.obj
+         Debug\myexcept.obj
+         Debug\newfft.obj
+         Debug\newmat1.obj
+         Debug\newmat2.obj
+         Debug\newmat3.obj
+         Debug\newmat4.obj
+         Debug\newmat5.obj
+         Debug\newmat6.obj
+         Debug\newmat7.obj
+         Debug\newmat8.obj
+         Debug\newmat9.obj
+         Debug\newmatex.obj
+         Debug\newmatnl.obj
+         Debug\newmatrm.obj
+         Debug\solution.obj
+         Debug\sort.obj
+         Debug\submat.obj
+         Debug\svd.obj
+         Debug\NTRIP.obj
+         Debug\NtripSocket.obj
+         Debug\RTNetSolution.obj
+         Debug\RTNetSolutionDlg.obj
+         Debug\SUBFUNC.obj
+         Debug\stdafx.obj
+         Debug\UITNtrip.obj
+         RTNetSolution.vcxproj -> D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Debug\RTNetSolution.exe
+     1>"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\RTNetSolution.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:08.14

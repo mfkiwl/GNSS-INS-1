@@ -1,0 +1,54 @@
+﻿빌드 시작: 2021-10-14 오후 1:38:28
+     1>2 노드의 "D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\RTNetSolution.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt RTNetSolutionDlg.cpp
+         RTNetSolutionDlg.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: 'MBCS_Support_Deprecated_In_MFC' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Release\RTNetSolution.exe" /INCREMENTAL:NO /NOLOGO /NODEFAULTLIB:"Nafxcwd.lib Libcmtd.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\Include\Manifest\dpiaware.manifest" /Debug /PDB:"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Release\RTNetSolution.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Release\RTNetSolution.lib" /MACHINE:X86 /SAFESEH /FORCE:MULTIPLE Release\RTNetSolution.res
+         Release\ins.obj
+         Release\bandmat.obj
+         Release\cholesky.obj
+         Release\evalue.obj
+         Release\fft.obj
+         Release\hholder.obj
+         Release\jacobi.obj
+         Release\myexcept.obj
+         Release\newfft.obj
+         Release\newmat1.obj
+         Release\newmat2.obj
+         Release\newmat3.obj
+         Release\newmat4.obj
+         Release\newmat5.obj
+         Release\newmat6.obj
+         Release\newmat7.obj
+         Release\newmat8.obj
+         Release\newmat9.obj
+         Release\newmatex.obj
+         Release\newmatnl.obj
+         Release\newmatrm.obj
+         Release\solution.obj
+         Release\sort.obj
+         Release\submat.obj
+         Release\svd.obj
+         Release\NTRIP.obj
+         Release\NtripSocket.obj
+         Release\RTNetSolution.obj
+         Release\RTNetSolutionDlg.obj
+         Release\SUBFUNC.obj
+         Release\stdafx.obj
+         Release\UITNtrip.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void * __cdecl operator new(unsigned int)" (??2@YAPAXI@Z)이(가) LIBCMT.lib(new_scalar.obj)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void __cdecl operator delete(void *)" (??3@YAXPAX@Z)이(가) LIBCMT.lib(delete_scalar.obj)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void * __cdecl operator new[](unsigned int)" (??_U@YAPAXI@Z)이(가) LIBCMT.lib(new_array.obj)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+     1>nafxcw.lib(afxmem.obj) : warning LNK4006: "void __cdecl operator delete[](void *)" (??_V@YAXPAX@Z)이(가) LIBCMT.lib(delete_array.obj)에 이미 정의되어 있습니다. 초 정의가 무시됩니다.
+     1>D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Release\RTNetSolution.exe : warning LNK4088: /FORCE 옵션을 사용하여 생성하는 이미지입니다. 이미지가 실행되지 않을 수도 있습니다.
+         RTNetSolution.vcxproj -> D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\Release\RTNetSolution.exe
+     1>"D:\++Task\2021\용역\에코센싱\ADIM-GUI-20210811\ADIM-GUI-20210811\RTNetSolution.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:08.70

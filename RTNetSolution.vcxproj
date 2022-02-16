@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{745C657C-B4B6-4AF9-B2F7-19872402C7D0}</ProjectGuid>
+    <RootNamespace>RTNetSolution</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>Nafxcwd.lib;Libcmtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>Nafxcwd.lib Libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>Nafxcwd.lib Libcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalOptions>/FORCE:MULTIPLE %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="SRC\NAV\ins.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\bandmat.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\cholesky.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\evalue.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\fft.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\hholder.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\jacobi.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\myexcept.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newfft.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat1.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat2.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat3.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat4.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat5.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat6.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat7.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat8.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmat9.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmatex.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmatnl.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\newmatrm.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\solution.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\sort.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\submat.cpp" />
+    <ClCompile Include="SRC\NEWMAT10D\svd.cpp" />
+    <ClCompile Include="SRC\NTRIP\NTRIP.cpp" />
+    <ClCompile Include="SRC\NTRIP\NtripSocket.cpp" />
+    <ClCompile Include="RTNetSolution.cpp" />
+    <ClCompile Include="RTNetSolutionDlg.cpp" />
+    <ClCompile Include="SRC\SUBFUNC\SUBFUNC.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UITNtrip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SRC\NAV\ins.h" />
+    <ClInclude Include="SRC\NAV\Structure_type.h" />
+    <ClInclude Include="SRC\NEWMAT10D\boolean.h" />
+    <ClInclude Include="SRC\NEWMAT10D\controlw.h" />
+    <ClInclude Include="SRC\NEWMAT10D\include.h" />
+    <ClInclude Include="SRC\NEWMAT10D\myexcept.h" />
+    <ClInclude Include="SRC\NEWMAT10D\newmat.h" />
+    <ClInclude Include="SRC\NEWMAT10D\newmatap.h" />
+    <ClInclude Include="SRC\NEWMAT10D\newmatio.h" />
+    <ClInclude Include="SRC\NEWMAT10D\newmatnl.h" />
+    <ClInclude Include="SRC\NEWMAT10D\newmatrc.h" />
+    <ClInclude Include="SRC\NEWMAT10D\newmatrm.h" />
+    <ClInclude Include="SRC\NEWMAT10D\precisio.h" />
+    <ClInclude Include="SRC\NEWMAT10D\solution.h" />
+    <ClInclude Include="SRC\NTRIP\NTRIP.h" />
+    <ClInclude Include="SRC\NTRIP\NtripSocket.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="RTNetSolution.h" />
+    <ClInclude Include="RTNetSolutionDlg.h" />
+    <ClInclude Include="SRC\SUBFUNC\SUBFUNC.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UITNtrip.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\nisl_dev.ico" />
+    <None Include="res\RTNetSolution.ico" />
+    <None Include="res\RTNetSolution.rc2" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RTNetSolution.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="RTNetSolution.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
